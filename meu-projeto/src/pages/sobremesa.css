@@ -1,0 +1,73 @@
+.sobremesa {
+    background-color: #f0f0f0;
+    /* Cor de fundo para todo o conteúdo */
+    padding: 20px;
+    /* Espaçamento interno */
+}
+
+.nome-sobre {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.menu2 a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 35px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.menu2 a:hover {
+    color: chocolate;
+}
+
+.sobremesa-item img {
+    max-width: 100%;
+}
+
+.sobremesa-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permitir que os itens quebrem para a próxima linha se necessário */
+    justify-content: center;
+    /* Centralizar os itens horizontalmente */
+    margin-top: 90px;
+}
+
+.sobremesa-item {
+    text-align: center;
+    margin: 20px;
+    /* Espaçamento entre os itens */
+    flex-basis: calc(25% - 40px);
+    /* Largura base de cada item (ajuste conforme necessário) */
+    max-width: 300px;
+    /* Largura máxima de cada item */
+    padding: 20px;
+    /* Espaçamento interno */
+    border-radius: 10px;
+    /* Borda arredondada */
+    margin-bottom: 100px;
+}
+
+.sobremesa-item p {
+    margin-top: 10px;
+    /* Espaçamento entre a imagem e o texto */
+    font-size: 16px;
+    /* Tamanho da fonte do texto */
+}
+
+.imagem-sobremesa {
+    background-color: chocolate; /* Cor de fundo para a imagem da sobremesa */
+    padding: 10px; /* Espaçamento interno */
+    border-top-left-radius: 10px; /* Arredonda apenas o canto superior esquerdo */
+    border-top-right-radius: 10px; /* Arredonda apenas o canto superior direito */
+}
+
+.nome-sobremesa {
+    background-color: white; /* Cor de fundo para o nome da sobremesa */
+    padding: 10px; /* Espaçamento interno */
+    border-bottom-left-radius: 10px; /* Arredonda apenas o canto inferior esquerdo */
+    border-bottom-right-radius: 10px; /* Arredonda apenas o canto inferior direito */
+}

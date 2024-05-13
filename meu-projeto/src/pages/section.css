@@ -1,0 +1,54 @@
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.center img {
+  width: 280px;
+  margin-top: -50px;
+  margin-left: -105px;
+}
+
+.bola {
+  position: absolute;
+  bottom: 10px;
+  right: -145px;
+  width: 780px;
+  height: 700px;
+  border-radius: 50%;
+  background-color: chocolate;
+}
+
+.bola img {
+  width: 55%;
+  margin-left: -40px;
+  margin-top: 80px;
+}
+
+.texto-principal {
+  margin-top: 250px;
+}
+
+.texto-principal h1 {
+  font-size: 50px;
+}
+
+.texto-principal p {
+  margin: 20px 0;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  max-width: 680px;
+}
+
+.texto-principal button {
+  border: 0;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}

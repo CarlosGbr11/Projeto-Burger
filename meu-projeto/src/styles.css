@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, boddy {
+  overflow-x: hidden;
+}
+
+.slideshow {
+  text-align: center;
+  margin-top: 30px;
+  position: relative; 
+}
+
+.texto-slide {
+  font-size: 24px;
+  font-family: Arial, sans-serif; 
+  color: #333; 
+}
+
+.botao-slide {
+  position: absolute;
+  bottom: -390px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.botao-slide button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  background-color: chocolate;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; 
+  border: 2px solid #8b4513;
+}
+
+.botao-slide button:hover {
+  background-color: #8b4513; 
+}
+
+.secao {
+  text-align: center;
+  margin-top: 60px;
+  max-width: 80%;
+  background-color: chocolate;
+  color: white;
+  border-radius: 100px;
+  padding: 40px; 
+  font-family: "Arial", sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 136px;
+}
+
+.secao h1 {
+  font-size: 24px;
+  font-weight: bold; 
+  margin-bottom: 20px;
+}
+
+.secao:hover {
+  background-color: #8b4513;
+}
+
